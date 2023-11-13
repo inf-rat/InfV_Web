@@ -1,0 +1,25 @@
+body {
+    background-color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Inside-Padding und Drop-Shadow für Karten */
+.card {
+    background-color: #ffffff;
+    /* Shadow-Parameter: hor, ver, blur, spread, color */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    padding: 30px;
+    /*border: 1px solid #4CAF50;*/
+}
+
+/* Bei Mausover wird Schatten tiefer */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+/* Inside-Padding für den Container */
+.container {
+    padding: 16px;
+    /*border: 1px solid #4CAF50;*/
+}
