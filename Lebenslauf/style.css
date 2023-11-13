@@ -3,6 +3,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    /*Padding muss dem Padding des Containers entsprechen*/
+    padding: 15px;
+}
+
 /* Inside-Padding, Margin und Drop-Shadow für Karten */
 .card {
     background-color: #ffffff;
@@ -19,16 +24,12 @@ body {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 }
 
-.material-icons {
-    vertical-align: bottom;
-}
-
 /* Inside-Padding für den Container */
 .container {
     padding: 15px;
     /*border: 1px solid #4CAF50;*/
 }
 
-h1 {
-    padding: 15px;
+.material-icons {
+    vertical-align: bottom;
 }
